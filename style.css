@@ -29,7 +29,7 @@ header {
 }
 
 #brand a {
-  color: purple;
+  color: white;
 }
 
 ul {
@@ -83,10 +83,12 @@ ul li:hover {
 }
 
 .open .mobile-menu {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: flex-start;
+	display: flex;
+  	flex-direction: column;
+  	align-items: center;
+	justify-content: flex-start;
+	background-color: #353836;
+  	font-size: 23px;
 }
 
 .mobile-menu {
