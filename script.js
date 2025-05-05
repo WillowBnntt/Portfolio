@@ -1,1 +1,3 @@
-// add shit here later when I've learned JS
+function toggleMobileMenu(menu) {
+	menu.classList.toggle('open');
+}
