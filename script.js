@@ -5,6 +5,7 @@ function toggleMobileMenu(menu) {
 
 const filterBtn = document.querySelectorAll("[data-filter-btn]")
 var lastClickedBtn = filterBtn[0]
+alert(filterBtn.length)
 for (let i = 0; i < filterBtn.length; i++) {
 	alert("hello")
   filterBtn[i].addEventListener("click", function () {
