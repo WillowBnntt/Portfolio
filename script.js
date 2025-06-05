@@ -5,9 +5,7 @@ function toggleMobileMenu(menu) {
 
 const filterBtn = document.querySelectorAll('.willow')
 var lastClickedBtn = filterBtn[0]
-alert(filterBtn.length)
 for (let i = 0; i < filterBtn.length; i++) {
-	alert("hello2")
   filterBtn[i].addEventListener("click", function () {
     let selectedValue = this.innerText.replaceAll(" ", "")
     filterFunc(selectedValue)
