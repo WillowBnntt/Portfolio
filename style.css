@@ -20,7 +20,7 @@ header a {
 header {
   padding: 0px 20px;
   background-color: #1d1f1d;
-  height: 100px;
+  height: 75px;
   display: flex;
   justify-content: space-between;
 }
