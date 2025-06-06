@@ -20,7 +20,7 @@ header a {
 header {
   padding: 0px 20px;
   background-color: #1d1f1d;
-  height: 50px;
+  height: 100px;
   display: flex;
   justify-content: space-between;
 }
@@ -32,7 +32,7 @@ header {
 
 #brand a {
   color: #00ffff;
-  font-size: 20px;
+  font-size: 35px;
 }
 
 nav ul {
@@ -55,7 +55,7 @@ nav li:hover {
 
 nav a {
   color: #00ffff;
-  font-size: 20px;
+  font-size: 30px;
 }
 
 #hamburger-icon {
@@ -133,7 +133,7 @@ nav a {
 
 main {
   padding: 5px 10px;
-  font-size: 18px;
+  font-size: 25px;
 }
 
 .active {
