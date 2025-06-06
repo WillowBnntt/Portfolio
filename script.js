@@ -3,7 +3,7 @@ function toggleMobileMenu(menu) {
 }
 
 
-const filterBtn = document.querySelectorAll('.willow')
+const filterBtn = document.querySelectorAll('[data-filter-btn]')
 var lastClickedBtn = filterBtn[0]
 for (let i = 0; i < filterBtn.length; i++) {
   filterBtn[i].addEventListener("click", function () {
