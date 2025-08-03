@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en"> 
+<meta charset="UTF-8">
+<title>Willow's Portfolio</title>
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<link rel="stylesheet" href="style.css">
+
+
+<header>
+   <div id="brand"><a href="/Portfolio/">Willow Bennett</a></div>
+   <nav>
+ 	<ul>
+   	<li><a href="/Portfolio/">Home</a></li>
+	  <li><a href="CV.html">CV</a></li>
+   	<li><a href="portfolio.html">Portfolio</a></li>
+ 	</ul>
+   </nav>
+   <div id="hamburger-icon" onclick="toggleMobileMenu(this)">
+	<div class="bar1"></div>
+	<div class="bar2"></div>
+	<div class="bar3"></div>
+	<ul class="mobile-menu">
+  	<li><a href="index.html"><b>Home</b></a></li>
+	<li><a href="CV.html"><b>CV</b></a></li>
+   	<li><a href="portfolio.html"><b>Portfolio</b></a></li>
+	</ul>
+   </div>
+</header>
+
+<main id="Home-main">
+  <section, id="Name-Space">
+	<div class="title">
+    <h1>Willow Bennett</h1>
+  </div>
+  
+  <div class="subtitle">
+    <p>Data Science from a <span style="color: #30C200;">geographic</span> perspective</p>
+  </div>
+  </section>
+	<br>
+  
+	<picture>
+    <!-- Mobile-first: cropped or zoomed-in image -->
+    <source srcset=".../images/P1010454-3.jpg" media="(max-width: 600px)">
+    <!-- Tablet/desktop: wide/full version -->
+    <source srcset=".../images/P1010454-2.jpg" media="(min-width: 601px)">
+    <!-- Fallback in case source fails -->
+    <img src=".../images/P1010454.jpg" alt="Banner showing [describe image]" id="home-photo">
+  </picture>
+
+</main>
+	
+<script src="script.js"></script>
+</body>
+</html>
