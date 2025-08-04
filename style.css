@@ -214,3 +214,67 @@ aside p {
 */
 
 
+.active {
+  color: #00ffff !important;
+  display: flex !important;
+  /* The seen if active part */
+}
+
+/*
+  - Filter Buttons
+*/
+
+#filter-list li {
+  list-style-type: none;
+  float: left; 
+  /* The horizontal + wrapping part */
+  margin-right: 5px;
+}
+
+#filter-list li button {
+  cursor: pointer;
+  border: 1.5px solid #00ffff;
+  padding: 5px 10px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 5px;
+  font-size: 13px;
+  margin: 0px 0px;
+  font-weight: bold;
+  background-color: black;
+  color: white;
+}
+
+
+/*
+  - Portfolio List
+*/
+
+#Portfolio-list {
+  clear: left;
+  /* Move below the floating buttons */
+}
+
+#Portfolio-list li {
+  float: left;
+  
+  cursor: pointer;
+  border: none;
+  padding: 50px 30px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 5px;
+  font-size: 13px;
+  margin-top: 10px;
+  margin-right: 10px;
+  font-weight: bold;
+  background-color: black;
+  
+}
+
+
+.PItem {
+  display: none;
+  /* Not allowed to be seen defacto */
+}
+
