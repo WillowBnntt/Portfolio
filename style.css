@@ -9,9 +9,18 @@ body {
   color: black;
 }
 
-main {
+/* main {
+  display: flex;
+} */
+
+#Home-main {
   display: flex;
 }
+
+#CV-main {
+  display: flex;
+}
+  
 
 /* Larger screen */
 @media (min-width: 601x) {
