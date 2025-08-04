@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en"> 
+<meta charset="UTF-8">
+<title>Willow's Portfolio</title>
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<link rel="stylesheet" href="style.css">
+<body>
+<header>
+   <div id="brand"><a href="/Portfolio/">MyCompany</a></div>
+   <nav>
+ 	<ul>
+   	<li><a href="/Portfolio/">Home</a></li>
+	<li><a href="CV.html">CV</a></li>
+   	<li><a href="portfolio.html">Portfolio</a></li>
+ 	</ul>
+   </nav>
+   <div id="hamburger-icon" onclick="toggleMobileMenu(this)">
+	<div class="bar1"></div>
+	<div class="bar2"></div>
+	<div class="bar3"></div>
+	<ul class="mobile-menu">
+  	<li><a href="index.html">Home</a></li>
+	<li><a href="CV.html">CV</a></li>
+   	<li><a href="portfolio.html">Portfolio</a></li>
+	</ul>
+   </div>
+</header>
+
+<main>
+This is the <b>Portfolio</b> page :)
+
+<br>
+<br>
+
+<ul id="filter-list">
+      <li class="filter-item">
+        <button class="active" data-filter-btn>All</button>
+      </li>
+
+      <li class="filter-item">
+        <button data-filter-btn>University</button>
+      </li>
+
+      <li class="filter-item">
+        <button data-filter-btn>School</button>
+      </li>
+
+      <li class="filter-item">
+        <button data-filter-btn>Personal</button>
+      </li>
+      </ul>
+<br>
+    
+    <ul id="Portfolio-list">
+      <li class="PItem active" data-filter-item data-category="University School">
+        <a>List part 1</a>
+      </li>
+      
+      <li class="PItem" data-filter-item data-category="School">
+        <a>List part 3</a>
+      </li>
+      
+      <li class="PItem active" data-filter-item data-category="Personal">
+        <a>List part 1a</a>
+      </li>
+      
+      <li class="PItem active" data-filter-item data-category="University Personal">
+        <a>List part 2</a>
+      </li>
+      
+      <li class="PItem active" data-filter-item data-category="University">
+        <a>List part 1b</a>
+      </li>
+      
+      <li class="PItem active" data-filter-item data-category="University School">
+        <a>List part 2a</a>
+      </li>
+    </ul>
+    
+    <section class="Text"><br> footer text</section>
+
+</main>
+<script src="script.js"></script>
+</body>
+</html>
