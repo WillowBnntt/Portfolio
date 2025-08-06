@@ -16,19 +16,19 @@ body {
 #CV-main {
   display: flex;
 }
+
+/* Smaller screens */
+@media (max-width: 600px) {
+  html {
+    font-size: 14px;
+  }
+}
   
 
 /* Larger screen */
 @media (min-width: 601x) {
   html {
     font-size: 25px;
-  }
-}
-
-/* Smaller screens */
-@media (max-width: 600px) {
-  html {
-    font-size: 14px;
   }
 }
 
