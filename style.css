@@ -9,10 +9,6 @@ body {
   color: black;
 }
 
-/* main {
-  display: flex;
-} */
-
 #Home-main {
   display: flex;
 }
@@ -25,7 +21,7 @@ body {
 /* Larger screen */
 @media (min-width: 601x) {
   html {
-    font-size: 20px;
+    font-size: 25px;
   }
 }
 
@@ -190,28 +186,37 @@ nav a {
 */
 
 aside {
-  width: 30%;            /* Left-hand = 30% of the width */
-  border-right: 1px solid #ddd; /* divider */
+  width: 31%;            /* Left-hand = 30% of the width */
+  height: 100%;
+  /* border-right: 1px solid #ddd; /* divider */
   word-break: break-word;
   background: #e3dbcb;
-  padding: 5px 10px;
+  padding: 0.4rem 0.7rem;
+  position: fixed; /* Fixed Sidebar (stay in place on scroll, if needed) */
+  z-index: 1; 
 }
 
 aside p {
-  margin-bottom: 8px;
+  margin-bottom: 0.6rem;
+  font-size: 1rem
 }
 
+h2 {
+  font-size: 1.3rem;
+}
+
+
 #CV-section {
-  width: 70%;            /* Right-hand = 70% */
-  padding: 5px 10px;
+  width: 69%;            /* Right-hand = 70% */
+  padding: 0.4rem 0.7rem;
 }
 
 .icon {
-  width: 20px;
-  height: 20px;
+  width: 1.3rem;
+  height: 1.3rem;
 
   position: relative;
-  top: 5px;
+  top: 0.4rem;
 }
 
 
@@ -286,4 +291,3 @@ aside p {
   display: none;
   /* Not allowed to be seen defacto */
 }
-
