@@ -31,6 +31,11 @@ body {
   html {
     font-size: 14px;
   }
+
+  aside {
+    flex-direction: column;
+  }
+
 }
  
 
@@ -40,6 +45,11 @@ body {
   html {
     font-size: 25px;
   }
+
+  aside {
+    flex-direction: row;
+  }
+
 }
 
 
@@ -228,14 +238,17 @@ nav a {
 
 
 aside {
-  width: 31%;            /* Left-hand = 30% of the width */
-  height: 100%;
-  /* border-right: 1px solid #ddd; /* divider */
-  word-break: break-word;
+  width: 100%;            /* Left-hand = 30% of the width */
   background: #e3dbcb;
   padding: 0.4rem 0.7rem;
   position: fixed; /* Fixed Sidebar (stay in place on scroll, if needed) */
   z-index: 1;
+  display: flex;
+}
+
+#Large-space {
+  color: #e3dbcb;
+  font-size: 1.5rem;
 }
 
 
@@ -251,9 +264,7 @@ h2 {
 
 
 
-
 #CV-section {
-  width: 69%;            /* Right-hand = 70% */
   padding: 0.4rem 0.7rem;
 }
 
